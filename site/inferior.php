@@ -117,10 +117,40 @@
   <script>
 $('#cepOrc').blur(function(e){
     var cep=$('#cepOrc').val();
+    
+    var url='http://viacep.com.br/ws/' + cep + "/json/";
+    
+    var validaCEP=/^[0-9]{5}-?[0-9]{3}$/;
+    
+    if(validaCEP.test(cep)){
+        $("#mensagem").hide();
+       pesquisarCEP(url); 
+    }else{
+        $("#mensagem").show();
+        $('#mensagem p').html('CEP inválido');
+    }
+    
+    
+    
+    
     console.log(cep);
 //    console.log('saiu');
-    
-})
+
+});
+      function pesquisarCEP(endereco){
+          $.ajax({
+              type: "GET",
+              url:endereco,
+              async:false
+          }).done(function(data){
+              $('#enderecoOrc').val(data.logradouro);
+              $('#bairroOrc').val(data.bairro);
+              $('#cidadeOrc').val(data.localidade);
+              $('#estadoOrc').val(data.uf);
+          }).fail(function(){
+        console.log("erro");
+          })
+      };
 </script> 
    
    

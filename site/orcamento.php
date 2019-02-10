@@ -105,21 +105,29 @@ require_once 'superior-paginas.php';
                             </div>
 
                             <div class="form-group col-md-6">
-                                <input type="text" name="enderecoOrc" class="form-control" id="name" placeholder="Endereço *" />
+                                <input type="text" name="enderecoOrc" class="form-control" id="enderecoOrc" placeholder="Endereço *" />
+
+                            </div>
+                            
+                            <div class="form-group col-md-3">
+                                <input type="text" name="bairroOrc" class="form-control" id="bairroOrc" placeholder="Bairro" />
+
+                            </div>
+                            
+
+                            <div class="form-group col-md-3">
+                                <input type="text" name="cidadeOrc" class="form-control" id="cidadeOrc" placeholder="Cidade *" />
 
                             </div>
 
-                            <div class="form-group col-md-4">
-                                <input type="text" name="cidadeOrc" class="form-control" id="name" placeholder="Cidade *" />
+                            <div class="form-group col-md-3">
+                                <input type="text" name="estadoOrc" class="form-control" id="estadoOrc" placeholder="Estado *" />
 
                             </div>
 
-                            <div class="form-group col-md-4">
-                                <input type="text" name="estadoOrc" class="form-control" id="name" placeholder="Estado *" />
-
-                            </div>
-
-                            <div class="form-group col-md-4">
+                            
+                            
+                            <div class="form-group col-md-3">
                                 <input type="text" name="numeroOrc" class="form-control" id="name" placeholder="Nº *" />
 
                             </div>
@@ -243,7 +251,10 @@ require_once 'superior-paginas.php';
                             <div class="form-group col-md-12">
                                 <textarea class="form-control" name="mensagemOrc" id="exampleFormControlTextarea1" rows="3" placeholder="Fale um pouco mais sobre os detalhes do seu projeto *"></textarea>
                             </div>
-
+<div class="col-md-12">
+    <div id="mensagem" ><p class="center"></p></div>
+    
+</div>
                         </div>
 
                         <div class="text-center"><button type="submit" name="enviarOrcamento">Enviar orçamento</button></div>

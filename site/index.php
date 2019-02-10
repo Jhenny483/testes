@@ -289,7 +289,7 @@
             <div class="container">
 
                 <header class="section-header">
-                    <h3 class="section-title">Portifólio</h3>
+                    <h3 class="section-title">Portfólio</h3>
                 </header>
 
                 <div class="row">
@@ -371,8 +371,8 @@
                             </figure>
 
                             <div class="portfolio-info">
-                                <h4><a href="#">Web 3</a></h4>
-                                <p>Web</p>
+                                <h4><a href="#">Alecrim &amp; Canela</a></h4>
+                                <p>IDENTIDADE VISUAL - CATÃO DE VISITA</p>
                             </div>
                             <!-- Modal -->
                             <div class="modal fade" id="portfolio-2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -416,8 +416,8 @@
                             </figure>
 
                             <div class="portfolio-info">
-                                <h4><a href="#">IDENTIDADE VISUAL</a></h4>
-                                <p>Logo - Atelie De Costura</p>
+                                <h4><a href="#">Alecrim &amp; Canela</a></h4>
+                                <p>IDENTIDADE VISUAL - LOGO</p>
                             </div>
                             <!-- Modal -->
                             <div class="modal fade" id="portfolio-3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -460,8 +460,8 @@
                             </figure>
 
                             <div class="portfolio-info">
-                                <h4><a href="#">IDENTIDADE VISUAL</a></h4>
-                                <p>Logo - Atelie De Costura</p>
+                                <h4><a href="#">...</a></h4>
+                                <p>IDENTIDADE VISUAL - LOGO</p>
                             </div>
                             <!-- Modal -->
                             <div class="modal fade" id="portfolio-3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -506,8 +506,8 @@
                             </figure>
 
                             <div class="portfolio-info">
-                                <h4><a href="#">IDENTIDADE VISUAL</a></h4>
-                                <p>Logo - Atelie De Costura</p>
+                                <h4><a href="#">K'OISA DE PATY</a></h4>
+                                <p>IDENTIDADE VISUAL - LOGO</p>
                             </div>
                             <!-- Modal -->
                             <div class="modal fade" id="portfolio-3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -846,50 +846,13 @@
 
 
 
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-visual wow fadeInUp">
-                        <div class="portfolio-wrap">
-                            <figure>
-                                <img src="img/portfolio/webPorti-cartao.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio/webPorti-cartao.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
-                                <a href="#" class="link-details" title="More Details" data-toggle="modal" data-target="#portfolio-3"><i class="ion ion-android-open"></i></a>
-                            </figure>
-
-                            <div class="portfolio-info">
-                                <h4><a href="#">IDENTIDADE VISUAL</a></h4>
-                                <p>Logo - iLearn</p>
-                            </div>
-                            <!-- Modal -->
-                            <div class="modal fade" id="portfolio-3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLongTitle">IDENTIDADE VISUAL <br> iLearn</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente ratione, a dolorum voluptates dignissimos quos sint illo. Vitae amet eveniet, ipsa ullam voluptatum nisi aut! Nihil, et ipsam totam tenetur! <br>
-                                                <a href="">link.do.site</a> </p>
-                                            <p>
-                                                Categoria: IDENTIDADE VISUAL <br> Data: 00/00/0000
-                                            </p>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">SAIR</button>
-                                            <!--                                            <button type="button" class="btn btn-primary">Save changes</button>-->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                  
 
 
 
 
                 </div>
-                <div class="botao-servicos"><a href="portfolio.html" class="btn-get-started ">ver mais</a></div>
+                <div class="botao-servicos"><a href="portfolio.php" class="btn-get-started ">ver mais</a></div>
             </div>
         </section>
         <!-- #portfolio -->
