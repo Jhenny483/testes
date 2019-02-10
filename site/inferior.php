@@ -82,8 +82,57 @@
 
     <!-- JavaScript Libraries -->
     <script src="lib/jquery/jquery.min.js"></script>
+    
+    
+   
+    
+    
      <script src="lib/mask-jquery/jquery.mask.min.js"></script>
+     
+     
+
+     
+     
     <script src="lib/jquery/jquery-migrate.min.js"></script>
+    
+    
+<!--
+    <script>
+    var cep = "05187510";
+    $.ajax({
+
+        type: "GET",
+        url: "http://viacep.com.br/ws/" + cep + "/json",
+        async: false
+    }).done(function(data) {
+        console.log(data);
+    }).fail(function(){
+        console.log("erro");
+    });
+
+</script>
+    
+-->
+   
+  <script>
+$('#cepOrc').blur(function(e){
+    var cep=$('#cepOrc').val();
+    console.log(cep);
+//    console.log('saiu');
+    
+})
+</script> 
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    
+    
     <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/superfish/hoverIntent.js"></script>
@@ -103,6 +152,9 @@
         $("#telefoneOrc").mask("(00) 0000-00009");
         $("#cepOrc").mask("00000-000");
     </script>
+    
+    
+    
 
     <!-- Template Main Javascript File -->
     <script src="js/main.js"></script>

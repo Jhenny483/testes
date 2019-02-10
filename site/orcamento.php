@@ -100,7 +100,7 @@ require_once 'superior-paginas.php';
                             </div>
 
                             <div class="form-group col-md-6">
-                                <input type="text" name="cepOrc"  class="form-control" id="cepOrc" placeholder="CEP *" />
+                                <input type="text" name="cepOrc" id="cepOrc"  class="form-control" id="cepOrc" placeholder="CEP *" />
 
                             </div>
 
